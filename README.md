@@ -35,4 +35,4 @@ and set the second half of the new array after one position of the second half o
 
 ## Solution
 
-![Whiteboard_ArrayShift](./assets/arrayShift.png)
+![Whiteboard_ArrayShift](./assets/array-shift.png)
