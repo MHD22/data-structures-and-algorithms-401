@@ -1,5 +1,7 @@
 
-# Reverse an Array (Source code =>)[https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/ArrayReverse.java]
+# Reverse an Array 
+
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/ArrayReverse.java)
 
 print out an array in reverse order
 
@@ -17,7 +19,9 @@ I used two pointers to replace the elements inside the array and go through it u
 
 ### ----------------------------------------
 
-# Array Shift (Source code =>)[https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/ArrayShift.java]
+# Array Shift 
+
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/ArrayShift.java)
 
 insert an element in the middle of the array and shift the other elements
 
@@ -39,7 +43,9 @@ and set the second half of the new array after one position of the second half o
 
 ### ----------------------------------------
 
-# Binary search in a sorted 1D array (Source code =>)[https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/BinarySearch.java]
+# Binary search in a sorted 1D array 
+
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/BinarySearch.java)
 
 find an element in a sorted array using binary search algorithm 
 
@@ -60,7 +66,9 @@ if the middle number was smaller , then ignore the right side and repeat the pro
 
 ### ----------------------------------------
 
-# Singly Linked List (Source code =>)[https://github.com/MHD22/data-structures-and-algorithms-401/main/Data-Structures/]
+# Singly Linked List
+
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/linkedList/app/src/main/java/linkedList/LinkedList.java)
 
 
 You can create Linked list and manipulate it.
