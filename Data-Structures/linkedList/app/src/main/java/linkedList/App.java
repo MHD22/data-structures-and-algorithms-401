@@ -16,8 +16,12 @@ public class App {
         myList.insert(7);
         myList.insert(6);
         myList.insert(5);
-
-
+//        myList.append(11);
+//        myList.append(12);
+//        myList.append(13);
+//        myList.append(9);
+        myList.insertBefore(10,2);
+        myList.insertAfter(10,5);
         System.out.println(myList.toString());
         System.out.println(myList.includes(9));
 

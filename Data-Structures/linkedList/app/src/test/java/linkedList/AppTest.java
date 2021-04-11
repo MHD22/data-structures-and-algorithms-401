@@ -45,6 +45,59 @@ public class AppTest {
         boolean isFound = testList.includes(22);
         assertFalse("Must be true",isFound);
     }
+    @Test public void testAddNodesToTheEnd(){
+        testList.insert(7);//the first element (head)
+        testList.append(10);
+        testList.append(11);
+        testList.append(12);
+        String output = testList.toString();
+        String expected = " { 7 } -->  { 10 } -->  { 11 } -->  { 12 } --> NULL";
+        assertEquals(expected,output);
+    }
+    @Test public void testInsertBeforeTheMiddleValue(){
+        testList.insert(7);//the first element (head)
+        testList.append(10);
+        testList.append(11);
+        testList.append(12);
+        testList.insertBefore(11,22);
+        String output = testList.toString();
+        String expected = " { 7 } -->  { 10 } -->  { 22 } -->  { 11 } -->  { 12 } --> NULL";
+        assertEquals(expected,output);
+    }
+    @Test public void testInsertBeforeTheFirstValue(){
+        testList.insert(7);//the first element (head)
+        testList.append(10);
+        testList.append(11);
+        testList.append(12);
+        testList.insertBefore(7,22);
+        String output = testList.toString();
+        String expected = " { 22 } -->  { 7 } -->  { 10 } -->  { 11 } -->  { 12 } --> NULL";
+        assertEquals(expected,output);
+    }
+    @Test public void testInsertAfterTheMiddleValue(){
+        testList.insert(7);//the first element (head)
+        testList.append(10);
+        testList.append(11);
+        testList.append(12);
+        testList.insertAfter(11,22);
+        String output = testList.toString();
+        String expected = " { 7 } -->  { 10 } -->  { 11 } -->  { 22 } -->  { 12 } --> NULL";
+        assertEquals(expected,output);
+    }
+    @Test public void testInsertAfterTheLastValue(){
+        testList.insert(7);//the first element (head)
+        testList.append(10);
+        testList.append(11);
+        testList.append(12);
+        testList.insertAfter(12,22);
+        String output = testList.toString();
+        String expected = " { 7 } -->  { 10 } -->  { 11 } -->  { 12 } -->  { 22 } --> NULL";
+        assertEquals(expected,output);
+    }
+
+
+
+
 
 
 
