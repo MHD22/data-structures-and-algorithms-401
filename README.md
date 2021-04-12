@@ -149,7 +149,7 @@ else .. print out a message for the user (Or exception) that tell the user the v
 
 ## Solution
 
-![Whiteboard_LinkedList](./assets/ll-kth-from-end)
+![Whiteboard_LinkedList](./assets/ll-kth-from-end.png)
 
 ### ----------------------------------------
 
