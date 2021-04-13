@@ -9,23 +9,22 @@ public class App {
     public static void main(String[] args) {
 
         LinkedList myList = new LinkedList();
+        LinkedList myList2 = new LinkedList();
+        myList.append(10);
+        myList.append(9);
+        myList.append(8);
+        myList.append(4);
+        myList.append(13);
 
-        myList.insert(10);
-        myList.insert(9);
-        myList.insert(8);
-        myList.insert(7);
-        myList.insert(6);
-        myList.insert(5);
-        myList.append(11);
-//        myList.append(12);
-//        myList.append(13);
-//        myList.append(9);
-        myList.insertBefore(10,2);
-        myList.insertAfter(10,5);
+        myList2.append(14);
+        myList2.append(7);
+        myList2.append(22);
+
+        LinkedList newList = LinkedList.zipLists(myList,myList2) ;
         System.out.println(myList.toString());
-        System.out.println(myList.includes(9));
-        System.out.println(myList.getSize());
-        System.out.println(myList.kthFromEnd(-2));
+        System.out.println(myList2.toString());
+        System.out.println(newList);
+
 
     }
 }
