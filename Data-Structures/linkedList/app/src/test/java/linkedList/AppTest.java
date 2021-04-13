@@ -179,5 +179,59 @@ public class AppTest {
         assertEquals("The output must be 12", expected, output);
     }
 
+    @Test
+    public void testZipLists() {
+        LinkedList myList = new LinkedList();
+        LinkedList myList2 = new LinkedList();
+        myList.append(10);
+        myList.append(9);
+        myList.append(8);
+        myList.append(4);
+        myList.append(13);
+        myList2.append(14);
+        myList2.append(7);
+        myList2.append(22);
+        LinkedList newList = LinkedList.zipLists(myList, myList2);
+        String expected = " { 10 } -->  { 14 } -->  { 9 } -->  { 7 } -->  { 8 } -->  { 22 } -->  { 4 } -->  { 13 } --> NULL";
+        String output = newList.toString();
+        assertEquals(expected, output);
+
+        int expectedSize = 8;
+        int actualSize = newList.getSize();
+        assertEquals("Size must be 8", expectedSize, actualSize);
+    }
+
+    @Test
+    public void testZipListsWithSizeZeroForOneOfTheLists() {
+        LinkedList myList = new LinkedList();
+        LinkedList myList2 = new LinkedList();
+
+        myList2.append(14);
+        myList2.append(7);
+        myList2.append(22);
+        LinkedList newList = LinkedList.zipLists(myList, myList2);
+        String expected = " { 14 } -->  { 7 } -->  { 22 } --> NULL";
+        String output = newList.toString();
+        assertEquals(expected, output);
+
+        int expectedSize = 3;
+        int actualSize = newList.getSize();
+        assertEquals("Size must be 8", expectedSize, actualSize);
+    }
+
+    @Test
+    public void testZipListsWithSizeZeroForTheLists() {
+        LinkedList myList = new LinkedList();
+        LinkedList myList2 = new LinkedList();
+
+        LinkedList newList = LinkedList.zipLists(myList, myList2);
+        String expected = "NULL";
+        String output = newList.toString();
+        assertEquals(expected, output);
+
+        int expectedSize = 0;
+        int actualSize = newList.getSize();
+        assertEquals("Size must be 8", expectedSize, actualSize);
+    }
 
 }

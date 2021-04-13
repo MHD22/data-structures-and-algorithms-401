@@ -113,6 +113,34 @@ public class LinkedList {
         }
     }
 
+    public static LinkedList zipLists(LinkedList list1, LinkedList list2){
+
+        int iterationNumbers = getLargerSize( list1.getSize(), list2.getSize());
+        LinkedList newList = new LinkedList();
+        Node currentNodeOfList1 = list1.head;
+        Node currentNodeOfList2 = list2.head;
+        for(int i =0 ; i < iterationNumbers; i++){
+            if(currentNodeOfList1 != null){
+                newList.append(currentNodeOfList1.value);
+                currentNodeOfList1=currentNodeOfList1.next;
+            }
+            if(currentNodeOfList2 != null){
+                newList.append(currentNodeOfList2.value);
+                currentNodeOfList2=currentNodeOfList2.next;
+            }
+
+        }
+
+        return newList;
+    }
+
+    private static int getLargerSize(int size1, int size2){
+        if(size1 >= size2)
+            return size1;
+        else
+            return size2;
+    }
+
     @Override
     public String toString() {
         String output = "";
