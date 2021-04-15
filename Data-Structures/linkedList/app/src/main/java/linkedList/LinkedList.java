@@ -141,6 +141,32 @@ public class LinkedList {
             return size2;
     }
 
+
+    public boolean isPalindrome(){
+        int[] copyOfList = getListAsArray();
+        int left = 0 ;
+        int right = size-1;
+        while (left < right){
+            if(copyOfList[left] != copyOfList[right])
+                return false;
+            left++;
+            right--;
+        }
+        return true;
+    }
+
+    private int[] getListAsArray(){
+        int[] copyOfList = new int[size];
+        Node currentNode = head;
+        int counter = 0;
+        while(currentNode !=null){
+            copyOfList[counter] = currentNode.value;
+            currentNode = currentNode.next;
+            counter++;
+        }
+        return copyOfList;
+    }
+
     @Override
     public String toString() {
         String output = "";
