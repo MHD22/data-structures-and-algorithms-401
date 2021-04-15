@@ -10,11 +10,11 @@ public class App {
 
         LinkedList myList = new LinkedList();
         LinkedList myList2 = new LinkedList();
+
         myList.append(10);
-        myList.append(9);
-        myList.append(8);
-        myList.append(4);
-        myList.append(13);
+
+
+
 
         myList2.append(14);
         myList2.append(7);
@@ -24,6 +24,8 @@ public class App {
         System.out.println(myList.toString());
         System.out.println(myList2.toString());
         System.out.println(newList);
+        System.out.println(myList.isPalindrome());
+
 
 
     }
