@@ -6,35 +6,45 @@ package stacksandqueues;
 public class App {
 
     public static void main(String[] args) {
-       Stack<Integer> myStack = new Stack<Integer>();
+//       Stack<Integer> myStack = new Stack<Integer>();
+//
+//        myStack.push(3);
+//        myStack.push(5);
+//        myStack.push(2);
+//        myStack.push(1);
+//
+//     System.out.println(myStack);
+//
+//
+//        Queue<Integer> myQueue = new Queue<>();
+//        myQueue.enqueue(10);
+//        myQueue.enqueue(9);
+//        myQueue.enqueue(5);
+//        myQueue.enqueue(6);
+//        myQueue.enqueue(3);
+//        myQueue.enqueue(1);
+//
+//        System.out.println(myQueue.toString());
+//
+//        System.out.println();
+//        System.out.println(myQueue.peek());
+//        System.out.println(myQueue.peek());
+//        System.out.println(myQueue.dequeue());
+//        System.out.println(myQueue.dequeue());
+//        System.out.println(myQueue.peek());
+//
+//
+//
+//        System.out.println(myQueue.size);
 
-        myStack.push(3);
-        myStack.push(5);
-        myStack.push(2);
-        myStack.push(1);
-
-     System.out.println(myStack);
-
-
-        Queue<Integer> myQueue = new Queue<>();
-        myQueue.enqueue(10);
-        myQueue.enqueue(9);
-        myQueue.enqueue(5);
-        myQueue.enqueue(6);
-        myQueue.enqueue(3);
-        myQueue.enqueue(1);
-
-        System.out.println(myQueue.toString());
-
-        System.out.println();
-        System.out.println(myQueue.peek());
-        System.out.println(myQueue.peek());
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.dequeue());
-        System.out.println(myQueue.peek());
+        PseudoQueue<Integer> pQueue = new PseudoQueue<>();
+        pQueue.enqueue(20);
+        pQueue.enqueue(15);
+        pQueue.enqueue(10);
+        System.out.println(pQueue.getSize());
+        System.out.println(pQueue);
 
 
 
-        System.out.println(myQueue.size);
     }
 }
