@@ -264,7 +264,7 @@ this method should add the value to the end of the queue (rear).
 
 # Animal Shelter
 
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/fifo-animal-shelter/challenges/utilities/app/src/main/java/utilities/AnimalShelter.java)
 
 # Challenge Summary
 
