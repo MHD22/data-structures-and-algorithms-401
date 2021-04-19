@@ -39,17 +39,6 @@ public class AnimalShelter {
         return animalQueue.size;
     }
 
-//    public T dequeue(){
-//        if(!this.isEmpty()){
-//            Node temp = front;
-//            front = front.next;
-//            temp.next = null;
-//            size--;
-//            return (T) temp.value;
-//        }
-//        return null;
-//    }
-
 
     @Override
     public String toString() {
