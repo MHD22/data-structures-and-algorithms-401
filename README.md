@@ -187,7 +187,7 @@ this method should take two linked list and produce a new one which contain the 
 ### ----------------------------------------
 
 # Stacks and Queues
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
 
 >This app must implement the Stack and Queue data structures.
 
@@ -258,13 +258,13 @@ this method should add the value to the end of the queue (rear).
 
 ## Solution
 
-![Whiteboard_LinkedList](./assets/queue-with-stacks.png.png)
+![Whiteboard_LinkedList](./assets/queue-with-stacks.png)
 
 ### ----------------------------------------
 
 # Animal Shelter
 
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/fifo-animal-shelter/challenges/utilities/app/src/main/java/utilities/AnimalShelter.java)
 
 # Challenge Summary
 
@@ -335,3 +335,4 @@ check again the steps `1,2` but with the value of the `next node` .
 ![Whiteboard_LinkedList](./assets/multi-bracket-validation.png)
 
 ### ----------------------------------------
+
