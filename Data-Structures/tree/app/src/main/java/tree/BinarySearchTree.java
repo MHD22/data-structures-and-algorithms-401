@@ -45,15 +45,9 @@ public class BinarySearchTree<T> extends BinaryTree {
                     if((int) value == (int) current.value)
                         return true;
                     if(  (int) value < (int) current.value  ){
-                        if(current.left == null){
-                            return false;
-                        }
                         current = current.left;
                     }
                     else{
-                        if(current.right == null){
-                            return false;
-                        }
                         current = current.right;
                     }
                 }
