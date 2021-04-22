@@ -35,5 +35,8 @@ public class App {
         System.out.println(tr.preOrder(tr.root));
         System.out.println(tr.inOrder(tr.root));
         System.out.println(tr.postOrder(tr.root));
+        System.out.println(tr.contains(5));
+        System.out.println(tr.contains(6));
+        System.out.println(tr.contains(7));
     }
 }

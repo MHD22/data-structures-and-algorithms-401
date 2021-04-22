@@ -6,14 +6,19 @@ package stacksandqueues;
 public class App {
 
     public static void main(String[] args) {
-//       Stack<Integer> myStack = new Stack<Integer>();
-//
-//        myStack.push(3);
-//        myStack.push(5);
-//        myStack.push(2);
-//        myStack.push(1);
-//
-//     System.out.println(myStack);
+       Stack<Integer> myStack = new Stack<Integer>();
+
+        myStack.push(3);
+        myStack.push(5);
+        myStack.push(2);
+        myStack.push(1);
+        myStack.push(12);
+
+
+
+     System.out.println(myStack);
+     System.out.println(myStack.getMax());
+     System.out.println(myStack.maxStack);
 //
 //
 //        Queue<Integer> myQueue = new Queue<>();
@@ -37,12 +42,12 @@ public class App {
 //
 //        System.out.println(myQueue.size);
 
-        PseudoQueue<Integer> pQueue = new PseudoQueue<>();
-        pQueue.enqueue(20);
-        pQueue.enqueue(15);
-        pQueue.enqueue(10);
-        System.out.println(pQueue.getSize());
-        System.out.println(pQueue);
+//        PseudoQueue<Integer> pQueue = new PseudoQueue<>();
+//        pQueue.enqueue(20);
+//        pQueue.enqueue(15);
+//        pQueue.enqueue(10);
+//        System.out.println(pQueue.getSize());
+//        System.out.println(pQueue);
 
 
 
