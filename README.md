@@ -514,6 +514,6 @@ this method should return list which contain the all values of the tree in the B
 
 ## Solution
 
-![Whiteboard_LinkedList](./assets/readth-first.png)
+![Whiteboard_LinkedList](./assets/breadth-first.png)
 
 ### ----------------------------------------
