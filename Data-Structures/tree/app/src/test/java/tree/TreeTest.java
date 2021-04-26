@@ -84,6 +84,25 @@ public class TreeTest {
         assertEquals(-1, tree.findMaximumValue(tree.root));
     }
 
+    // test BFS:
+
+    @Test
+    public void testBFS_InNormalCase(){
+        BinaryTree<Integer> tree = new BinaryTree<>();
+        tree.add(1);
+        tree.add(2);
+        tree.add(3);
+        tree.add(4);
+        List<Integer> actual = tree.breadthFirstSearch();
+        assertArrayEquals(Arrays.asList(1,2,3,4).toArray(),actual.toArray());
+    }
+
+    @Test
+    public void testBFS_IfTreeIsEmpty(){
+        BinaryTree<Integer> tree = new BinaryTree<>();
+        List<Integer> actual = tree.breadthFirstSearch();
+        assertArrayEquals(Arrays.asList().toArray(),actual.toArray());
+    }
 
 
 }

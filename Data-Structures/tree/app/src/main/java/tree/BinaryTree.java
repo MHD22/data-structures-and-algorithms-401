@@ -89,6 +89,27 @@ public class BinaryTree<T> {
         return tree;
     }
 
+    public List<T> breadthFirstSearch(){
+        List <T> tree = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        if(isNotEmpty()){
+            queue.add(root);
+            while(!queue.isEmpty()){
+
+                Node currentNode = queue.poll();
+                tree.add((T)currentNode.value);
+
+                if(currentNode.left != null){
+                    queue.add(currentNode.left);
+                }
+                if(currentNode.right != null){
+                    queue.add(currentNode.right);
+                }
+            }
+        }
+        return tree;
+    }
+
     public int findMaximumValue(Node root){
         if(this.isNotEmpty()){
             int max =(int) root.value;
