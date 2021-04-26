@@ -89,6 +89,30 @@ public class BinaryTree<T> {
         return tree;
     }
 
+    public int findMaximumValue(Node root){
+        if(this.isNotEmpty()){
+            int max =(int) root.value;
+            int left = max;
+            int right = max;
+
+            if(root.left == null && root.right == null)
+                return (int) root.value;
+
+            if(root.left != null)
+                left = findMaximumValue(root.left);
+            if(root.right != null)
+                right = findMaximumValue(root.right);
+
+            if( left > max)
+                max = left;
+            if(right > max)
+                max = right;
+            return max;
+        }
+        return -1;
+
+    }
+
     @Override
     public String toString() {
         return "BinaryTree{" +
