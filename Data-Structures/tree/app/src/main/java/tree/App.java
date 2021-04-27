@@ -3,6 +3,9 @@
  */
 package tree;
 
+import k_aryTree.FizzBuzzTree;
+import k_aryTree.K_aryTree;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -13,6 +16,29 @@ public class App {
     }
 
     public static void main(String[] args) {
+        K_aryTree<Integer> ktree = new K_aryTree<>(4);
+        ktree.add(1);
+        ktree.add(2);
+        ktree.add(3);
+        ktree.add(4);
+        ktree.add(5);
+        ktree.add(6);
+        ktree.add(7);
+        ktree.add(8);
+        ktree.add(9);
+        ktree.add(15);
+        ktree.add(20);
+        System.out.println(ktree);
+        System.out.println(ktree.breadthFirstSearch());
+        K_aryTree<String> fizBuzzTree = FizzBuzzTree.fizzBuzzTree(ktree);
+        System.out.println("-----------------");
+        System.out.println("-----------------");
+        System.out.println("-----------------");
+        System.out.println(fizBuzzTree.breadthFirstSearch());
+        System.out.println("-----------------");
+        System.out.println("-----------------");
+        System.out.println("-----------------");
+
 
 
         BinaryTree<Integer> tree = new BinaryTree<>();
