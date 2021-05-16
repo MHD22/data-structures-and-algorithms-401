@@ -16,49 +16,51 @@ public class App {
     }
 
     public static void main(String[] args) {
-        K_aryTree<Integer> ktree = new K_aryTree<>(4);
-        ktree.add(1);
-        ktree.add(2);
-        ktree.add(3);
-        ktree.add(4);
-        ktree.add(5);
-        ktree.add(6);
-        ktree.add(7);
-        ktree.add(8);
-        ktree.add(9);
-        ktree.add(15);
-        ktree.add(20);
-        System.out.println(ktree);
-        System.out.println(ktree.breadthFirstSearch());
-        K_aryTree<String> fizBuzzTree = FizzBuzzTree.fizzBuzzTree(ktree);
-        System.out.println("-----------------");
-        System.out.println("-----------------");
-        System.out.println("-----------------");
-        System.out.println(fizBuzzTree.breadthFirstSearch());
-        System.out.println("-----------------");
-        System.out.println("-----------------");
-        System.out.println("-----------------");
+//        K_aryTree<Integer> ktree = new K_aryTree<>(4);
+//        ktree.add(1);
+//        ktree.add(2);
+//        ktree.add(3);
+//        ktree.add(4);
+//        ktree.add(5);
+//        ktree.add(6);
+//        ktree.add(7);
+//        ktree.add(8);
+//        ktree.add(9);
+//        ktree.add(15);
+//        ktree.add(20);
+//        System.out.println(ktree);
+//        System.out.println(ktree.breadthFirstSearch());
+//        K_aryTree<String> fizBuzzTree = FizzBuzzTree.fizzBuzzTree(ktree);
+//        System.out.println("-----------------");
+//        System.out.println("-----------------");
+//        System.out.println("-----------------");
+//        System.out.println(fizBuzzTree.breadthFirstSearch());
+//        System.out.println("-----------------");
+//        System.out.println("-----------------");
+//        System.out.println("-----------------");
 
 
 
         BinaryTree<Integer> tree = new BinaryTree<>();
+        tree.add(1);
+        tree.add(2);
+        tree.add(3);
 
-//        tree.add(1);
-//        tree.add(2);
-//        tree.add(3);
-//        tree.add(4);
-//        tree.add(5);
-//        tree.add(6);
-//        tree.add(7);
-//        tree.add(8);
 
-        System.out.println(tree);
 
-        System.out.println(tree.preOrder(tree.root));
-        System.out.println(tree.inOrder(tree.root));
-        System.out.println(tree.postOrder(tree.root));
+        BinaryTree<Integer> tree2 = new BinaryTree<>();
+        tree2.add(1);
+        tree2.add(4);
+        tree2.add(3);
+
+
+
+
         System.out.println(tree.breadthFirstSearch());
-        System.out.println(tree.findMaximumValue(tree.root));
+        System.out.println(tree2.breadthFirstSearch());
+        System.out.println(tree.findFilesInDirectory(tree.root));
+        System.out.println(tree2.findFilesInDirectory(tree2.root));
+        System.out.println(tree.compareFilesInTwoDirectories(tree, tree2));
 
 
         //BST

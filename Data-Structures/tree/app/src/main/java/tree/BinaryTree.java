@@ -110,6 +110,7 @@ public class BinaryTree<T> {
         return tree;
     }
 
+
     public int findMaximumValue(Node root){
         if(this.isNotEmpty()){
             int max =(int) root.value;
@@ -131,7 +132,23 @@ public class BinaryTree<T> {
             return max;
         }
         return -1;
+    }
 
+    public  int findFilesInDirectory(Node root){
+        int sum =0;
+        if(root.left == null && root.right == null)
+            return 1;
+        if(root.left != null)
+            sum += findFilesInDirectory(root.left);
+        if(root.right != null)
+            sum += findFilesInDirectory(root.right);
+
+        return sum;
+    }
+    public  boolean compareFilesInTwoDirectories(BinaryTree<T> tree1,BinaryTree<T> tree2 ){
+        int filesInTree1 = findFilesInDirectory(tree1.root);
+        int filesInTree2 = findFilesInDirectory(tree2.root);
+        return filesInTree1 == filesInTree2;
     }
 
     @Override
