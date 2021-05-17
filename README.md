@@ -608,7 +608,7 @@ Given an array..
 
 # Merge Sort 
 
-[Source code =>]()
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/app/src/main/java/mergeSort/MergeSort.java)
 
 # Challenge Summary
 
@@ -646,7 +646,7 @@ Given an array..
 
 
 ## Solution (Blog):
-[insertion sort blog =>]()
+[insertion sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/BLOG.md)
 
 ### ----------------------------------------
 
