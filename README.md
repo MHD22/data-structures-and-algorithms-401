@@ -646,14 +646,14 @@ Given an array..
 
 
 ## Solution (Blog):
-[insertion sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/BLOG.md)
+[merge sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/BLOG.md)
 
 ### ----------------------------------------
 
 
 # Quick Sort 
 
-[Source code =>]()
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/quickSort/app/src/main/java/quickSort/QuickSort.java)
 
 # Challenge Summary
 
@@ -690,7 +690,7 @@ Given an array..
 
 
 ## Solution (Blog):
-[quick sort blog =>]()
+[quick sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/quickSort/BLOG.md)
 
 ### ----------------------------------------
 
