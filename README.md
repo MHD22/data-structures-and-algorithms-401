@@ -15,162 +15,28 @@ Each link will take you to a seperate file which contains:
 | [Array shift =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/arrayShift.md) | 
 | [Binary search in a sorted 1D array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/binarySearchIn_1D_Array.md) | 
 | [Singly Linked List =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList.md) | 
-| [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList2.md) | 
-
-
-### ----------------------------------------
-
-
-
-### ----------------------------------------
-
-
-
-### ----------------------------------------
+| [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList2.md) |
+| [Singly Linked List, KthFromEnd(k) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_KthFromEnd.md) |
+| [Singly Linked List, zipLists(list1, list2) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_zipLists.md) |
+| [Stacks and Queues =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/stacksAndQueues.md) |
+| [PseudoQueue (queue from two stacks) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/pseudoQueue.md) |
 
 
 ### ----------------------------------------
 
 ### ----------------------------------------
 
-# Singly Linked List, KthFromEnd(k)
-
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/linkedList/app/src/main/java/linkedList/LinkedList.java)
-
-# Challenge Summary
-
-declare a method to find the element of the list that is `K` from the end of the list. 
-
-## Challenge Description
-
-Need add the following methods:
-
-* `KthFromEnd(k)`
-K must be smaller than the size of the list. 
-this method should search during the list and retrieve the element that K from the end of the list.
-
-## Approach & Efficiency
-
-* declare a new field called size which hold the size of the linked list.
-subtract k from size and store the result in index.. 
-if the index is positive number .. 
-set a counter start from 1 
-loop over the list and for each iteration update the counter's value by adding 1 to it.
-when counter == index (size - K ) => retrieve the current value.
-else .. print out a message for the user (Or exception) that tell the user the value of k grater than the size of the list .
-
-## Solution
-
-![Whiteboard_LinkedList](./assets/ll-kth-from-end.png)
+### ----------------------------------------
 
 ### ----------------------------------------
 
-# Singly Linked List, zipLists(list1, list2)
-
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/linkedList/app/src/main/java/linkedList/LinkedList.java)
-
-# Challenge Summary
-
-declare a method to zipped two list together into new one. 
-
-## Challenge Description
-
-Need add the following methods:
-
-* `zipLists(list1, list2)`
-this method should take two linked list and produce a new one which contain the all elements of them.
-
-## Approach & Efficiency
-
-* take the bigger size of the list and store it in new variable ( iterations )
-* create new empty linked list
-* set two pointers on the heads of the old lists
-* loop number of iterations ..
-  * each iteration check if the currentNodeOfList1 != null => add its value to the newlist
-  * update the value of currentNodeOfList1 to take the next node of its list
-  * same thing with the list 2
-* when the loop done..the new list will be ready
-* return the new list.
-
-## Solution
-
-![Whiteboard_LinkedList](./assets/ll-zip.png)
+### ----------------------------------------
 
 ### ----------------------------------------
 
-# Stacks and Queues
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
-
->This app must implement the Stack and Queue data structures.
-
-## Challenge
-
-implement the methods related to manipulate a stack and queue successfully with any type of elements inside them.
-
-## Approach & Efficiency
-
-* create a Node class which take a value (whatever its type ) and the next properties.
-* create a stack class and add the required and the appropriate methods to it.
-* add the top and size fields to the stack .. top will always pointing to the top values of the stack 
-* if the stack was empty.. the top will point on null.
-
-* create a queue class and add the required and the appropriate methods to it.
-* add the front, rear, and size field to this class..
-* front will pointing on the oldest element entered the queue and the rear will pointin on the newest one.
-* When dequeue from the stack will return the front element.
-* when enqueue to the stack will add as a rear element.
-
-## API
-
-***For stack:***
-
-* `push(T value)` => will add a value into the top of the stack.
-* `pop()` => will pop up the top value of the stack and return it to the user.
-* `peek()` => will return the value of the top of the stack without remove it from the stack.
-* `isEmpty()` => will return true if the stack is empty, otherwise.. false.
-
-***For queue:***
-
-* `enqueue(T value)` => will add a value into the front of the queue.
-* `dequeue()`=> will dequeue out the rear value of the queue and return it to the user.
-* `peek()` => will return the rear value of the queue without remove it from the queue.
-* `isEmpty()` => will return true if the queue is empty, otherwise.. false.
-
 ### ----------------------------------------
 
-# PseudoQueue
-
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
-
-# Challenge Summary
-
-Implement a queue using two stacks only with methods of( pop, push, peek) 
-
-## Challenge Description
-
-Need add the following methods:
-
-* `dequeue()`
-this method should retrieve the first element of the queue (front).
-* `enqueue(value)`
-this method should add the value to the end of the queue (rear).
-
-## Approach & Efficiency
-
-* create a class (PseudoQueue)
-* create two stacks .. primary and secondary one. when a PseudoQueue is instaniated.
-* declare two main methods..(enqueue, dequeue)
-* Enqueue method:
-  * just push into the primary stack.
-* dequeue method:
-  * move the contents of the primary stack to the secondary one.
-  * pop the top value from the secondary stack
-  * move the contents from the secondary stack to the primary one
-  * return the poped value.
-
-## Solution
-
-![Whiteboard_LinkedList](./assets/queue-with-stacks.png)
+### ----------------------------------------
 
 ### ----------------------------------------
 
