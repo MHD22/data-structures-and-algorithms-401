@@ -11,6 +11,10 @@ Each link will take you to a seperate file which contains:
 * The whiteboard of this challenge.
 * and some other details in some challenges..
 
+<hr>
+
+<center>
+
 |  Challenge:  |
 |--------------|
 | [reverse an array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/reverseAnArray.md) | 
@@ -32,3 +36,5 @@ Each link will take you to a seperate file which contains:
 | [Merge Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/mergeSort.md) |
 | [Quick Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/quickSort.md) |
 | [Hashtables =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/hashtables.md) |
+  
+  </center>
