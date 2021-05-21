@@ -16,23 +16,23 @@ Each link will take you to a seperate file which contains:
 
 |  Challenge:  |
 |--------------|
-| [reverse an array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/reverseAnArray.md) | 
-| [Array shift =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/arrayShift.md) | 
-| [Binary search in a sorted 1D array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/binarySearchIn_1D_Array.md) | 
-| [Singly Linked List =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList.md) | 
-| [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList2.md) |
-| [Singly Linked List, KthFromEnd(k) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_KthFromEnd.md) |
-| [Singly Linked List, zipLists(list1, list2) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_zipLists.md) |
-| [Stacks and Queues =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/stacksAndQueues.md) |
-| [PseudoQueue (queue from two stacks) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/pseudoQueue.md) |
-| [Animal Shelter =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/animalShelter.md) |
-| [Multi Bracket validator =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/multiBracketValidator.md) |
-| [Trees =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees.md) |
-| [Trees: FindMaximumValue =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_FindMaximumValue.md) |
-| [Trees: Breadth First Search Traversal method =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_BreadthFirstSearchTraversal.md) |
-| [Trees: FizzBuzzTree(k-aryTree) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_FizzBuzzTree.md) |
-| [Insertion sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/insertionSort.md) |
-| [Merge Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/mergeSort.md) |
-| [Quick Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/quickSort.md) |
-| [Hashtables =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/hashtables.md) |
+| ## [reverse an array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/reverseAnArray.md) | 
+| ## [Array shift =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/arrayShift.md) | 
+| ## [Binary search in a sorted 1D array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/binarySearchIn_1D_Array.md) | 
+| ## [Singly Linked List =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList.md) | 
+| ## [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList2.md) |
+| ## [Singly Linked List, KthFromEnd(k) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_KthFromEnd.md) |
+| ## [Singly Linked List, zipLists(list1, list2) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList_zipLists.md) |
+| ## [Stacks and Queues =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/stacksAndQueues.md) |
+| ## [PseudoQueue (queue from two stacks) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/pseudoQueue.md) |
+| ## [Animal Shelter =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/animalShelter.md) |
+| ## [Multi Bracket validator =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/multiBracketValidator.md) |
+| ## [Trees =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees.md) |
+| ## [Trees: FindMaximumValue =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_FindMaximumValue.md) |
+| ## [Trees: Breadth First Search Traversal method =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_BreadthFirstSearchTraversal.md) |
+| ## [Trees: FizzBuzzTree(k-aryTree) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/trees_FizzBuzzTree.md) |
+| ## [Insertion sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/insertionSort.md) |
+| ## [Merge Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/mergeSort.md) |
+| ## [Quick Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/quickSort.md) |
+| ## [Hashtables =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/hashtables.md) |
   
