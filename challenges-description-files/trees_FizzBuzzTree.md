@@ -4,7 +4,7 @@
 
 # Trees: FizzBuzzTree(k-aryTree) 
 
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/Data-Structures/tree/app/src/main/java/tree/FizzBuzzTree.java)
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/Data-Structures/tree/app/src/main/java/k_aryTree/FizzBuzzTree.java)
 
 # Challenge Summary
 
