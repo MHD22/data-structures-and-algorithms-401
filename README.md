@@ -11,11 +11,11 @@ Each link will take you to a seperate file which contains:
 
 |  Challenge:  |
 |--------------|
-| [reverse an array =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/challenges-description-files/reversAnArray.md) | 
-| [Array shift =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/challenges-description-files/) | 
-| [Binary search in a sorted 1D array =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/challenges-description-files/) | 
-| [Singly Linked List =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/challenges-description-files/) | 
-| [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/tree/main/challenges-description-files/) | 
+| [reverse an array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/reverseAnArray.md) | 
+| [Array shift =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/arrayShift.md) | 
+| [Binary search in a sorted 1D array =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/binarySearchIn_1D_Array.md) | 
+| [Singly Linked List =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList.md) | 
+| [Singly Linked List Part2 (additional methods) =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/singlyLinkedList2.md) | 
 
 
 ### ----------------------------------------
