@@ -41,5 +41,5 @@ Given an array..
 * return the array.
 
 
-## Solution (Blog):
-[merge sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/BLOG.md)
+# Solution (Blog):
+# [merge sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/mergeSort/BLOG.md)

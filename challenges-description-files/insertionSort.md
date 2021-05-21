@@ -35,9 +35,15 @@ Given an array..
 * each time you find an element grater than the key... shift this element one place to the right, and decreace the index by one.
 * when you reach to the first element or there is no element grater than the key.. insert the key in the correct place (current index). 
 
-## Solution ( whiteboared ):
+<hr>
+
+# Solution (Blog):
+
+# [insertion sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/insertionSort/BLOG.md)
+
+<hr>
+
+# Solution ( whiteboared ):
 
 ![Whiteboard_LinkedList](./assets/InsertionSort.png)
 
-## Solution (Blog):
-[insertion sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/insertionSort/BLOG.md)

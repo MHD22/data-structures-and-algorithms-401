@@ -40,5 +40,6 @@ Given an array..
 * when the call stack is empty.. the sort process is done and the array will be sorted. 
 
 
-## Solution (Blog):
-[quick sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/quickSort/BLOG.md)
+# Solution (Blog):
+
+# [quick sort blog =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/quickSort/BLOG.md)
