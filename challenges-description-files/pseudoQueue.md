@@ -5,7 +5,7 @@
 
 # PseudoQueue
 
-[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/linked-list/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues)
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/Data-Structures/stacksandqueues/app/src/main/java/stacksandqueues/PseudoQueue.java)
 
 # Challenge Summary
 
