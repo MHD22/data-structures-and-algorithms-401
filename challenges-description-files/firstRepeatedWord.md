@@ -4,7 +4,7 @@
 
 # First Repeated Word
 
-[Source code =>]()
+[Source code =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges/repeatedWword/app/src/main/java/repeatedWword/RepeatedWord.java)
 
 
 # Challenge Summary
