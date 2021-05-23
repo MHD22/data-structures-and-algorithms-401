@@ -32,3 +32,4 @@ Each link will take you to a seperate file which contains:
 | [Merge Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/mergeSort.md) |
 | [Quick Sort =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/quickSort.md) |
 | [Hashtables =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/hashtables.md) |
+| [First repeated word in a book =>](https://github.com/MHD22/data-structures-and-algorithms-401/blob/main/challenges-description-files/firstRepeatedWord.md) |
