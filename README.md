@@ -1,7 +1,7 @@
 
 # Challenges list..
 
-* The following table contains the all challenges, data structures, and algorithms that I applied using `Java` programming language.
+* ***The following table contains the all challenges, data structures, and algorithms that I applied using `Java` programming language.***
 
 Each link will take you to a seperate file which contains:
 
@@ -10,6 +10,9 @@ Each link will take you to a seperate file which contains:
 * Efficiency of this algorithm.
 * The whiteboard of this challenge.
 * and some other details in some challenges..
+
+<hr>
+
 
 |  Challenge:  |
 |--------------|
