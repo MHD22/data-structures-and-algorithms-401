@@ -21,12 +21,20 @@ public class App {
         hash1.add("outift","guard");
         hash1.add("guide","usher");
 
+
+            char c = ':';
+            Character.toLowerCase(c);
+
+            int asci = c - 97;
+            if( asci >= 0 && asci < 26)
+                System.out.println(c);
+
         hash2.add("found","averse");
         hash2.add("wrath","delight");
         hash2.add("diligent","idle");
         hash2.add("flow","jam");
         hash2.add("guide","follow");
 
-        System.out.println(hash1.leftJoin(hash2));
+//        System.out.println(hash1.leftJoin(hash2));
     }
 }
